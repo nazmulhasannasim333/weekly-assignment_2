@@ -11,16 +11,12 @@ int main()
             printf("%d ", i);
         }
     }
-    else if (N < 0)
+    else
     {
         for (int i = N; i <= 0; i++)
         {
             printf("%d ", i);
         }
-    }
-    else
-    {
-        printf("0 ");
     }
     return 0;
 }
